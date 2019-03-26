@@ -1,7 +1,7 @@
 function kaliTerusRekursif(angka) {
   var stringAngka = angka.toString();
   if (stringAngka.length === 1) {
-  	return angka
+  	return Number(stringAngka)
   } else {
   	var penampungAngka = 1
   	for (var i = 0; i < stringAngka.length; i++) {

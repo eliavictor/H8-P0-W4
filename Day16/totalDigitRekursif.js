@@ -11,7 +11,7 @@ function totalDigitRekursif(angka) {
     return penampungAngka + totalDigitRekursif(Number(stringAngka));
   }
 } else {
-	return ' '
+	return 'Input Kosong'
 }
 }
 
